@@ -1,0 +1,104 @@
+{
+  "start": {
+    "text": "Hello! I am your Bank Assistant 🤖. How can I help you today?",
+    "options": [
+      "What are your working hours?",
+      "How to open a new account?",
+      "How to apply for a loan?",
+      "Information about credit cards",
+      "Report a lost/stolen card",
+      "Other queries"
+    ],
+    "optionsMap": {
+      "What are your working hours?": "hours",
+      "How to open a new account?": "openAccount",
+      "How to apply for a loan?": "loan",
+      "Information about credit cards": "creditCards",
+      "Report a lost/stolen card": "lostCard",
+      "Other queries": "contact"
+    }
+  },
+
+  "hours": {
+    "text": "Our branch working hours are Monday to Friday, 9:00 AM – 5:00 PM, and Saturday 10:00 AM – 2:00 PM.",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+
+  "openAccount": {
+    "text": "You can open a new account online via our website or visit any branch with valid ID documents.",
+    "options": ["Required Documents", "Back to Main Menu"],
+    "optionsMap": {
+      "Required Documents": "documents",
+      "Back to Main Menu": "start"
+    }
+  },
+
+  "documents": {
+    "text": "To open a new account, please provide one valid government-issued ID and proof of address.",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+
+  "loan": {
+    "text": "We offer personal loans, home loans, and car loans. You can apply online or at any branch.",
+    "options": ["Loan Requirements", "Back to Main Menu"],
+    "optionsMap": {
+      "Loan Requirements": "loanRequirements",
+      "Back to Main Menu": "start"
+    }
+  },
+
+  "loanRequirements": {
+    "text": "Basic requirements include a valid ID, proof of income, and minimum age 21. For more details, contact our customer service.",
+    "options": ["Back to Main Menu", "Contact Customer Service"],
+    "optionsMap": {
+      "Back to Main Menu": "start",
+      "Contact Customer Service": "contact"
+    }
+  },
+
+  "creditCards": {
+    "text": "We provide various credit cards: Classic, Gold, and Platinum. Benefits vary depending on the card.",
+    "options": ["Apply for Credit Card", "Back to Main Menu"],
+    "optionsMap": {
+      "Apply for Credit Card": "applyCard",
+      "Back to Main Menu": "start"
+    }
+  },
+
+  "applyCard": {
+    "text": "You can apply for a credit card online or at any branch. Please check eligibility requirements before applying.",
+    "options": ["Back to Main Menu", "Contact Customer Service"],
+    "optionsMap": {
+      "Back to Main Menu": "start",
+      "Contact Customer Service": "contact"
+    }
+  },
+
+  "lostCard": {
+    "text": "If your card is lost or stolen, please block it immediately to prevent unauthorized transactions.",
+    "options": [
+      "Block Card Online",
+      "Contact Customer Service",
+      "Back to Main Menu"
+    ],
+    "optionsMap": {
+      "Block Card Online": "blockCard",
+      "Contact Customer Service": "contact",
+      "Back to Main Menu": "start"
+    }
+  },
+
+  "blockCard": {
+    "text": "You can block your card via our mobile app or by calling customer service at +1-800-123-4567.",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+
+  "contact": {
+    "text": "For further assistance, please contact our customer service:\nPhone: +1-800-123-4567\nEmail: support@bank.com",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}
