@@ -1,0 +1,44 @@
+{
+  "start": {
+    "text": "Hi! I'm your support assistant. What do you need help with?",
+    "options": [
+      "Warranty",
+      "Returns",
+      "Technical Issues",
+      "Billing",
+      "Live Agent"
+    ],
+    "optionsMap": {
+      "Warranty": "warranty",
+      "Returns": "returns",
+      "Technical Issues": "tech",
+      "Billing": "billing",
+      "Live Agent": "agent"
+    }
+  },
+  "warranty": {
+    "text": "Our products come with 1-year warranty. Details: https://company.com/warranty",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "returns": {
+    "text": "Return policy: 30 days for full refund. Start return: https://company.com/returns",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "tech": {
+    "text": "For technical help, visit https://company.com/help or contact support.",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "billing": {
+    "text": "For billing queries email: billing@company.com",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "agent": {
+    "text": "Connecting you to a live agent... Please wait.",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}

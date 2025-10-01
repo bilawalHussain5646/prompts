@@ -1,0 +1,45 @@
+{
+  "start": {
+    "text": "Welcome to City Hospital! How may I assist you?",
+    "options": [
+      "Book Appointment",
+      "Doctor Availability",
+      "Lab Reports",
+      "Emergency Contact"
+    ],
+    "optionsMap": {
+      "Book Appointment": "appointment",
+      "Doctor Availability": "doctors",
+      "Lab Reports": "lab",
+      "Emergency Contact": "emergency"
+    }
+  },
+  "appointment": {
+    "text": "You can book appointments online at https://hospital.com/book",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "doctors": {
+    "text": "Our doctors are available Mon-Sat, 9am–5pm. Would you like to see the specialist list?",
+    "options": ["Yes, Show Specialists", "Back to Main Menu"],
+    "optionsMap": {
+      "Yes, Show Specialists": "support",
+      "Back to Main Menu": "start"
+    }
+  },
+  "lab": {
+    "text": "Lab reports can be accessed online at https://hospital.com/labs",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "emergency": {
+    "text": "For emergencies, please call 📞 911 or our ER desk at 📞 444-555-666",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "support": {
+    "text": "Please contact hospital helpdesk at ✉️ help@hospital.com",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}

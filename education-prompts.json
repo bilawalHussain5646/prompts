@@ -1,0 +1,44 @@
+{
+  "start": {
+    "text": "Welcome to Global University! What do you want to know about?",
+    "options": [
+      "Admissions",
+      "Courses Offered",
+      "Fee Structure",
+      "Exam Dates",
+      "Contact Office"
+    ],
+    "optionsMap": {
+      "Admissions": "admission",
+      "Courses Offered": "courses",
+      "Fee Structure": "fees",
+      "Exam Dates": "exams",
+      "Contact Office": "support"
+    }
+  },
+  "admission": {
+    "text": "Admissions are open until Sept 30. Apply here: https://uni.com/apply",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "courses": {
+    "text": "We offer Engineering, Business, and Arts programs. Explore full list: https://uni.com/courses",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "fees": {
+    "text": "Undergraduate: $5000/year, Postgraduate: $7000/year",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "exams": {
+    "text": "Final exams begin December 10. Timetable: https://uni.com/exams",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "support": {
+    "text": "University office email: info@uni.com 📞 123-777-888",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}

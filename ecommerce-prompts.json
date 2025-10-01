@@ -1,0 +1,40 @@
+{
+  "start": {
+    "text": "Welcome to ShopSmart! What do you need help with?",
+    "options": [
+      "Track Order",
+      "Return & Refund",
+      "Product Info",
+      "Customer Support"
+    ],
+    "optionsMap": {
+      "Track Order": "track",
+      "Return & Refund": "return",
+      "Product Info": "product",
+      "Customer Support": "support"
+    }
+  },
+  "track": {
+    "text": "Please enter your order ID on our tracking page: https://shop.com/track",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "return": {
+    "text": "You can return items within 14 days of delivery. Would you like to start a return request?",
+    "options": ["Yes, Start Return", "Back to Main Menu"],
+    "optionsMap": {
+      "Yes, Start Return": "support",
+      "Back to Main Menu": "start"
+    }
+  },
+  "product": {
+    "text": "Looking for product details? Please visit https://shop.com/products",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "support": {
+    "text": "Contact customer service at 📞 111-222-333 or ✉️ help@shop.com",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}

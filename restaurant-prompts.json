@@ -1,0 +1,44 @@
+{
+  "start": {
+    "text": "Welcome to Foodies Hub! How can I help?",
+    "options": [
+      "See Menu",
+      "Place Order",
+      "Reserve Table",
+      "Today's Offers",
+      "Contact Us"
+    ],
+    "optionsMap": {
+      "See Menu": "menu",
+      "Place Order": "order",
+      "Reserve Table": "reservation",
+      "Today's Offers": "offers",
+      "Contact Us": "support"
+    }
+  },
+  "menu": {
+    "text": "Our full menu is here: https://foodieshub.com/menu",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "order": {
+    "text": "Place your online order at https://foodieshub.com/order",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "reservation": {
+    "text": "Reserve a table online: https://foodieshub.com/reserve",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "offers": {
+    "text": "Today's Offer: Buy 1 Get 1 Free on Pizzas 🍕",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "support": {
+    "text": "Call us 📞 888-999-111 for quick help",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}

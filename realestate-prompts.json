@@ -1,0 +1,44 @@
+{
+  "start": {
+    "text": "Welcome to DreamHomes Realty! What are you looking for?",
+    "options": [
+      "Buy Property",
+      "Rent Property",
+      "Sell Property",
+      "Schedule Visit",
+      "Contact Agent"
+    ],
+    "optionsMap": {
+      "Buy Property": "buy",
+      "Rent Property": "rent",
+      "Sell Property": "sell",
+      "Schedule Visit": "visit",
+      "Contact Agent": "support"
+    }
+  },
+  "buy": {
+    "text": "Browse properties for sale: https://dreamhomes.com/buy",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "rent": {
+    "text": "Browse rental properties: https://dreamhomes.com/rent",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "sell": {
+    "text": "List your property for sale here: https://dreamhomes.com/sell",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "visit": {
+    "text": "Schedule a site visit online: https://dreamhomes.com/visit",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "support": {
+    "text": "Contact our agents 📞 444-222-333 for personal help",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}

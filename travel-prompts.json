@@ -1,0 +1,44 @@
+{
+  "start": {
+    "text": "Welcome to GlobeTrek Travel Agency! How can I assist?",
+    "options": [
+      "Flight Booking",
+      "Hotel Booking",
+      "Visa Information",
+      "Holiday Packages",
+      "Customer Support"
+    ],
+    "optionsMap": {
+      "Flight Booking": "flights",
+      "Hotel Booking": "hotels",
+      "Visa Information": "visa",
+      "Holiday Packages": "packages",
+      "Customer Support": "support"
+    }
+  },
+  "flights": {
+    "text": "Book flights online: https://globetrek.com/flights",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "hotels": {
+    "text": "Check hotel deals here: https://globetrek.com/hotels",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "visa": {
+    "text": "Visa requirements differ by country. Full details: https://globetrek.com/visa",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "packages": {
+    "text": "Popular holiday packages: https://globetrek.com/packages",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  },
+  "support": {
+    "text": "Contact travel helpdesk at 📞 999-111-222",
+    "options": ["Back to Main Menu"],
+    "optionsMap": { "Back to Main Menu": "start" }
+  }
+}
